@@ -1,0 +1,15 @@
+BACKUP ~bgee_npc_randomiser/backup~
+AUTHOR ~jaypee, at http://forum.beamdog.com~
+VERSION ~v0.1~
+
+BEGIN ~JP's NPC Kit And Proficiency Randomiser, BG:EE~
+REQUIRE_PREDICATE GAME_IS ~bgee~
+~This mod only works with BG:EE!~
+
+	 //Copy
+	 COPY ~bgee_npc_randomiser/copy~ override
+
+	 //Set Imoen1 class script
+		  COPY_EXISTING ~IMOEN1.CRE~ override
+			WRITE_ASCII 0x250 ~jp#DLGI~ #8 // Add and/or Replace the Class Script
+		  BUT_ONLY_IF_IT_CHANGES
