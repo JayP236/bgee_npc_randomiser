@@ -32,10 +32,10 @@ Rasaad -> C:CreateCreature("JP#RASAA")
 
 The in-game generation of kits and proficiencies starts when charname leaves Candlekeep and arrives in the Lion's Way area. Imoen will wait with talking to charname until the randomisation is finished. Afterwards she will come to the PC and start her normal dialogue.
 
-Installation
+**Installation**
 Copy the contents of the zip folder to your Baldur's Gate Enhanced Edition folder. Run setup-bgee_npc_randomiser.exe to install via WEIDU.
 
-Compatibility
+**Compatibility**
 I've tested the mod with a BG:EE 2.6 install combined with SCS and BG1NPC project.
 In general this version of the mod will not be compatible with any mods that change the default kits/proficiencies of BG:EE companions.
 This mod also alters the class script of Imoen1.cre, any mod that alters this script may break this mod.
