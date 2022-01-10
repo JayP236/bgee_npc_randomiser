@@ -8,27 +8,27 @@ This mod will modify the recruitable BG:EE companions:
 
 For kit assignment, following npc's are taken into account:
 
-Ajantis -> Unkitted Paladin, Cavalier, Undead Hunter, Inquisitor
-Alora -> Unkitted Thief, Swashbuckler, Assassin, Bounty Hunter, Shadowdancer
-Eldoth -> Unkitted Bard, Skald, Blade, Jester
-Faldorn -> Unkitted Druid, Shapeshifter, Totemic Druid, Avenger
-Garrick -> Unkitted Bard, Skald, Blade, Jester
-Imoen -> Unkitted Thief, Swashbuckler, Assassin, Bounty Hunter, Shadowdancer
-Kagain -> Unkitted Fighter, Wizard Slayer, Kensai, Barbarian, Dwarven Defender
-Khalid -> Unkitted Fighter, Wizard Slayer, Kensai, Barbarian, Berserker
-Kivan -> Unkitted Ranger, Beast Master, Archer, Stalker
-Minsc -> Unkitted Ranger, Beast Master, Archer, Stalker
-Safana -> Unkitted Thief, Swashbuckler, Assassin, Bounty Hunter, Shadowdancer
-Shar-Teel -> Unkitted Fighter, Wizard Slayer, Barbarian, Berserker
-Skie -> Unkitted Thief, Swashbuckler, Assassin, Bounty Hunter, Shadowdancer
+- Ajantis -> Unkitted Paladin, Cavalier, Undead Hunter, Inquisitor
+- Alora -> Unkitted Thief, Swashbuckler, Assassin, Bounty Hunter, Shadowdancer
+- Eldoth -> Unkitted Bard, Skald, Blade, Jester
+- Faldorn -> Unkitted Druid, Shapeshifter, Totemic Druid, Avenger
+- Garrick -> Unkitted Bard, Skald, Blade, Jester
+- Imoen -> Unkitted Thief, Swashbuckler, Assassin, Bounty Hunter, Shadowdancer
+- Kagain -> Unkitted Fighter, Wizard Slayer, Kensai, Barbarian, Dwarven Defender
+- Khalid -> Unkitted Fighter, Wizard Slayer, Kensai, Barbarian, Berserker
+- Kivan -> Unkitted Ranger, Beast Master, Archer, Stalker
+- Minsc -> Unkitted Ranger, Beast Master, Archer, Stalker
+- Safana -> Unkitted Thief, Swashbuckler, Assassin, Bounty Hunter, Shadowdancer
+- Shar-Teel -> Unkitted Fighter, Wizard Slayer, Barbarian, Berserker
+- Skie -> Unkitted Thief, Swashbuckler, Assassin, Bounty Hunter, Shadowdancer
 
 For proficiency assignment all original BG companions are included. The four BG:EE only companions are not automatically included in this release due to technical hurdles.
 
 It seems these npcs do not "exist" at the start of the game. It is possible to randomise their proficiencies once you are in the same area with them. Following commands in the console can be used:
-Baeloth -> C:CreateCreature("JP#BAELO")
-Dorn -> C:CreateCreature("JP#DORN")
-Neera -> C:CreateCreature("JP#NEERA")
-Rasaad -> C:CreateCreature("JP#RASAA")
+- Baeloth -> C:CreateCreature("JP#BAELO")
+- Dorn -> C:CreateCreature("JP#DORN")
+- Neera -> C:CreateCreature("JP#NEERA")
+- Rasaad -> C:CreateCreature("JP#RASAA")
 
 The in-game generation of kits and proficiencies starts when charname leaves Candlekeep and arrives in the Lion's Way area. Imoen will wait with talking to charname until the randomisation is finished. Afterwards she will come to the PC and start her normal dialogue.
 
